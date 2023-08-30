@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1 id="title">zaglavie</h1>
+    <p id="description">nekvo obqsnenie</p>
+    <form id="survey-form">
+        <fieldset>
+            <label for="name" id="name-label">Name:
+                <input type="text" id="name" required placeholder="Enter your Name">
+
+            </label>
+            <label for="email" id="email-label">Email:
+                <input type="email" id="email" required placeholder="Enter your Email">
+            </label>
+            <label for="number" id="number-label">: Age
+                <input type="number" id="number" min="2" max="100" required placeholder="Enter your Age">
+            </label>
+        </fieldset>
+        <fieldset>
+            <select name="dropdown" id="dropdown">
+                <label for="dropdown" id="dropdown-label">KUF SI
+                <option value="izberi">izberi</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </label>
+            </select>   
+        </fieldset>     
+            <fieldset>
+                <a>nekvi butoni</a>
+                <label for="button 1">
+                    <input type="radio" name="button" id="button 1"     value="fav_Button 1">button 1
+                </label for="tip">
+                    <label for="button 2">
+                <input type="radio" name="button" id="button 2" value="fav_Button 2">button 2
+            </label>
+            </fieldset>
+            <fieldset>
+                <input name="check" value="1" type="checkbox" class="input-checkbox">1
+                <input name="check" value="2" type="checkbox" class="input-checkbox">2
+                <input name="check" value="3" type="checkbox" class="input-checkbox">3
+                <input name="check" value="4" type="checkbox" class="input-checkbox">4
+            </fieldset>
+            <div>
+             <textarea id="comments" rows="5" cols="72" placeholder="tuka si pisha nekvi raboti" ></textarea>   
+                <div>
+                    <input type="submit" value="prashtam" id="submit">
+                    </div>
+                </div>
+
+            
+    </form>
+       
+</body>
+</html>
